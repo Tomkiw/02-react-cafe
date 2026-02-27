@@ -31,7 +31,7 @@ export default function App() {
   // Вони перераховуються автоматично при кожному рендері, коли змінюється стан votes.
   const totalVotes = votes.good + votes.neutral + votes.bad; // Загальна сума
   const positiveRate = totalVotes
-    ? Math.round((votes.good / totalVotes) * 100) // Відсоток позитивних
+    ? Math.round((votes.good / totalVotes) * 100)
     : 0;
 
   return (

@@ -7,6 +7,7 @@ import VoteStats from '../VoteStats/VoteStats'; // Імпорт компонен
 import Notification from '../Notification/Notification'; // Імпорт компонента-повідомлення
 
 export default function App() {
+  //sadasd
   // useState - це хук, який створює "стан" (state) компонента.
   // <Votes> - це Generic (узагальнення) TypeScript, який каже, що наш стан буде виглядати як інтерфейс Votes.
   // votes - змінна, що зберігає поточне значення стану (об'єкт { good: 0, ... }).

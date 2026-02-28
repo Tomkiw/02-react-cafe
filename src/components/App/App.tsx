@@ -1,6 +1,6 @@
 import css from './App.module.css'; // Імпорт стилів як об'єкта (CSS Modules). Використовується як css.className
 import CafeInfo from '../CafeInfo/CafeInfo'; // Імпорт React-компонента (Function Component)
-import type { Votes, VoteType } from '../../types/Votes'; // Імпорт типів TypeScript для типізації стану та пропсів
+import type { Votes, VoteType } from '../../types/votes'; // Імпорт типів TypeScript для типізації стану та пропсів
 import VoteOptions from '../VoteOptions/VoteOptions'; // Імпорт компонента з кнопками голосування
 import { useState } from 'react'; // Імпорт хука useState з бібліотеки React для роботи зі станом
 import VoteStats from '../VoteStats/VoteStats'; // Імпорт компонента для відображення статистики

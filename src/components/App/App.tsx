@@ -45,7 +45,7 @@ export default function App() {
         canReset={totalVotes > 0}
       />
       {/* Умовний рендеринг (Conditional Rendering).
-          Тернарний оператор: якщо totalVotes > 0, показуємо статистику, інакше - повідомлення. */}
+          Тернарний оператор: якщо totalVotes > 0, показуємо статистику, інакше - повідомлення */}
       {totalVotes > 0 ? (
         <VoteStats
           votes={votes}

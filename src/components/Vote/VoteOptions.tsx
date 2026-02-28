@@ -1,5 +1,5 @@
 import css from './VoteOptions.module.css';
-import type { VoteType } from '../types/Vote';
+import type { VoteType } from '../../types/Vote';
 
 interface VoteOptionsProps {
   onVote: (type: VoteType) => void; // Ф-ція яка приймає тип голосу
